@@ -1,0 +1,13 @@
+@startuml
+autoactivate on
+'actor client
+'actor client
+
+ApiClient -> WeatherController: Find weather forecast GET v1/weathers/forecast
+WeatherController -> WeatherService
+WeatherService -> WeatherForecast
+WeatherForecast --> WeatherService: Success
+WeatherService --> WeatherController: Success
+WeatherController --> ApiClient: Success
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+autoactivate on
+'actor client
+'actor client
+
+ApiClient -> WeatherManagement
+WeatherManagement -> WeatherThirdPartyService
+WeatherThirdPartyService --> WeatherManagement: Success
+WeatherManagement --> ApiClient: Success
+
+@enduml
