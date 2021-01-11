@@ -1,6 +1,6 @@
 Project location:
 =============================
-Local: D:\Users\Ayush_A\git-hub\weather-management
+Local: D:\Users\Ayush_A\repo\weather-management
 Github: https://github.com/share-coder/weather-management.git
 
  
